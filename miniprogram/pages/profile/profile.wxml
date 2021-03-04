@@ -1,0 +1,25 @@
+<view>
+  <!-- <view class="views" style="display:flex;height:200rpx;">
+    <view id="info">
+      <image id="info_img" src="https://6168-ahua-2002-9gnshetf64ade0aa-1303925172.tcb.qcloud.la/22.jpg?sign=e523ef432a22646384a1ebe561fa6e2a&t=1604538898" style="width:150rpx;height:150rpx;"></image>
+    </view>
+    <view style="width:550rpx;height:200rpx;background-color:red">
+      <view style="height:100rpx"><text>微信名字</text></view>
+      <view style="height:100rpx">个人信息></view>
+    </view>
+  </view> -->
+  <van-card
+  desc="描述信息"
+  title="商品标题"
+  thumb="https://6168-ahua-2002-9gnshetf64ade0aa-1303925172.tcb.qcloud.la/22.jpg?sign=e523ef432a22646384a1ebe561fa6e2a&t=1604538898"
+/>
+<view style="padding-top: 25px;">
+  <van-cell wx:for="{{cells}}"
+  is-link
+  title='{{item.title}}'
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+/>
+</view>
+
+</view>

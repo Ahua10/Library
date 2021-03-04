@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/find/find",
+    "pages/index/send/send",
+    "pages/index/readerinfo/readerinfo",
+    "pages/profile/profile",
+    "pages/binding/binding",
+    "pages/profile/setting/setting",
+    "pages/profile/about/about",
+    "pages/profile/feedback/feedback",
+    "pages/profile/info/info",
+    "pages/profile/borrow/borrow",
+    "pages/profile/history/history",
+    "pages/profile/collect/collect"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "机电图书馆",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "images/host1.png",
+        "selectedIconPath": "images/host2.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-notice-bar": "@vant/weapp/notice-bar/index"
+  }
+}

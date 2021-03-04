@@ -1,0 +1,17 @@
+.views{
+  background-color: pink;
+}
+#info{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: silver;
+}
+#info_img{
+  border-radius: 50%;
+  margin-top: 30rpx;
+  margin-left: 32rpx;
+  /* text-align: center; */
+}
+.van-card_img{
+  border-radius: 50%;
+}

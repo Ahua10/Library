@@ -1,0 +1,23 @@
+<view class="all">
+  <!-- 公告栏 -->
+  <van-notice-bar left-icon="volume-o" background="#fff" color="#000" text="在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。" />
+
+  <!-- 轮播图 -->
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}"
+    duration="{{duration}}" circular="true">
+    <block wx:for-items="{{lunboData}}" wx:key="item">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view style="display:flex;padding-top:30rpx;text-align:center;">
+    <view class="grid">
+      <image src="../../images/grids/fb.png" />
+      <image src="../../images/grids/fb.png" />
+      <image src="../../images/grids/fb.png" />
+    </view>
+  </view>
+
+</view>
